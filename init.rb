@@ -1,0 +1,1 @@
+MinglePlugins::Macros.register(CrossProjectBurnup, 'cross_project_burnup')

@@ -1,4 +1,4 @@
-class CrossProjectBurnup
+class ConsolidatedBurnup
 
   def initialize(parameters, project, current_user)
     @parameters = parameters
@@ -24,7 +24,7 @@ class CrossProjectBurnup
           ]);
 
           var options = {
-            title: 'Test Chart',
+            title: 'Consolidated Burnup Chart',
             trendlines: { 0: {} }
           };
 
